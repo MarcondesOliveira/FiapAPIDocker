@@ -1,0 +1,7 @@
+﻿apiVersion: v1
+kind: Service
+metadata:
+  name: externalName-service
+spec:
+  type: ExternalName
+  externalName: example.com
